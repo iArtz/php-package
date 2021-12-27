@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Warning":6,"Tests\\RandomStringTestCase::testCanGenerateRandomString":4,"Tests\\RandomStringTest::testCanGenerateRandomString":4},"times":{"Warning":0.004,"Tests\\RandomStringTestCase::testCanGenerateRandomString":0.088,"Tests\\RandomStringTest::testCanGenerateRandomString":0.077}}

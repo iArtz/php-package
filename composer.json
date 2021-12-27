@@ -1,0 +1,37 @@
+{
+    "name": "iartz/php-package",
+    "type": "library",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "php": ">= 7.1.3",
+        "illuminate/support": "^8.77"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utils\\" :"src/Utils/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\" :"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iArt",
+            "email": "iArt@AboutDev.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RandomString\\StringServiceProvider"
+            ]
+        }
+    }
+}
