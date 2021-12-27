@@ -1,9 +1,11 @@
 {
     "name": "iartz/php-package",
     "type": "library",
+    "version": "1.0.3",
     "scripts": {
         "test": "phpunit"
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">= 7.1.3",
         "illuminate/support": "^8.77"
